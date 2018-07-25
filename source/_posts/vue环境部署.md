@@ -5,12 +5,13 @@ toc: true
 tags:
     - vue.js
 ---
+vue环境部署
+<!-- more -->
 ## 第一步 node环境安装
 
 1.1 如果本机没有安装node运行环境，请下载node 安装包进行安装
 1.2 如果本机已经安装node的运行换，请更新至最新的node 版本
-下载地址：[https://nodejs.org/en/](https://nodejs.org/en/) 或者 [http://nodejs.cn/](http://nodejs.cn/)
----
+1.3 下载地址：[https://nodejs.org/en/](https://nodejs.org/en/) 或者 [http://nodejs.cn/](http://nodejs.cn/)
 ## 第二步 node环境检测
 
 为了快乐的使用命令行，我们推荐使用 gitbas
@@ -28,7 +29,6 @@ tags:
 
 如果输出版本号，说明我们安装node 环境成功
 
----
 ## 第三步 vue-cli脚手架安装
 
 3.1 如果访问外网比较慢，可以使用淘宝的镜像 [https://npm.taobao.org/](https://npm.taobao.org/)
