@@ -1,54 +1,54 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - 标签 - DOVISLIU</title>
-        <link>http://localhost:1313/tags/</link>
+        <link>http://localhost:57701/tags/</link>
         <description>Tags - 标签 - DOVISLIU</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:57701/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Default_tag</title>
-    <link>http://localhost:1313/tags/default_tag/</link>
+    <link>http://localhost:57701/tags/default_tag/</link>
     <pubDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://localhost:1313/tags/default_tag/</guid>
+    <guid>http://localhost:57701/tags/default_tag/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Efficiency</title>
-    <link>http://localhost:1313/tags/efficiency/</link>
+    <link>http://localhost:57701/tags/efficiency/</link>
     <pubDate>Fri, 27 Dec 2024 22:32:01 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://localhost:1313/tags/efficiency/</guid>
+    <guid>http://localhost:57701/tags/efficiency/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>Tool</title>
-    <link>http://localhost:1313/tags/tool/</link>
+    <link>http://localhost:57701/tags/tool/</link>
     <pubDate>Fri, 27 Dec 2024 22:32:01 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://localhost:1313/tags/tool/</guid>
+    <guid>http://localhost:57701/tags/tool/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>安装</title>
-    <link>http://localhost:1313/tags/installation/</link>
+    <link>http://localhost:57701/tags/installation/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://localhost:1313/tags/installation/</guid>
+    <guid>http://localhost:57701/tags/installation/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>内容</title>
-    <link>http://localhost:1313/tags/content/</link>
+    <link>http://localhost:57701/tags/content/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://localhost:1313/tags/content/</guid>
+    <guid>http://localhost:57701/tags/content/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>配置</title>
-    <link>http://localhost:1313/tags/configuration/</link>
+    <link>http://localhost:57701/tags/configuration/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://localhost:1313/tags/configuration/</guid>
+    <guid>http://localhost:57701/tags/configuration/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

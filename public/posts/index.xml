@@ -1,24 +1,24 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - DOVISLIU</title>
-        <link>http://localhost:1313/posts/</link>
+        <link>http://localhost:57701/posts/</link>
         <description>所有文章 | DOVISLIU</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:57701/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Mac常用工具</title>
-    <link>http://localhost:1313/mac_tools/</link>
+    <link>http://localhost:57701/mac_tools/</link>
     <pubDate>Fri, 27 Dec 2024 22:32:01 &#43;0800</pubDate>
     <author>Dovis</author>
-    <guid>http://localhost:1313/mac_tools/</guid>
+    <guid>http://localhost:57701/mac_tools/</guid>
     <description><![CDATA[<p>整理常用的mac工具，方便查找。</p>
 <h2 id="基础环境配置">基础环境配置</h2>
 <h2 id="常用工具">常用工具</h2>]]></description>
 </item>
 <item>
     <title>External Doc</title>
-    <link>http://localhost:1313/external_doc/</link>
+    <link>http://localhost:57701/external_doc/</link>
     <pubDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</pubDate>
     <author>dovisliu</author>
-    <guid>http://localhost:1313/external_doc/</guid>
+    <guid>http://localhost:57701/external_doc/</guid>
     <description><![CDATA[<p>External doc test</p>]]></description>
 </item>
 </channel>
