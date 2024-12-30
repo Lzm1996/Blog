@@ -1,0 +1,7 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>默认标签 - 标签 - DovisLiu</title>
+        <link>http://localhost:1313/tags/%E9%BB%98%E8%AE%A4%E6%A0%87%E7%AD%BE/</link>
+        <description>默认标签 - 标签 - DovisLiu</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:1313/tags/%E9%BB%98%E8%AE%A4%E6%A0%87%E7%AD%BE/" rel="self" type="application/rss+xml" /></channel>
+</rss>

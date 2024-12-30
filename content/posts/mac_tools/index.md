@@ -5,7 +5,7 @@ date: 2024-12-27T22:32:01+08:00
 lastmod: 2024-12-27T22:32:01+08:00
 draft: false
 author: "Dovis"
-description: "探索 Hugo - LoveIt 主题的全部内容和背后的核心概念."
+description: "探索mac效率工具的使用和安装"
 images: []
 resources:
 

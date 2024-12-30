@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Default_tag - 标签 - DOVISLIU</title>
+        <link>http://localhost:1313/tags/default_tag/</link>
+        <description>Default_tag - 标签 - DOVISLIU</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/default_tag/" rel="self" type="application/rss+xml" /><item>
+    <title>External Doc</title>
+    <link>http://localhost:1313/external_doc/</link>
+    <pubDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</pubDate>
+    <author>dovisliu</author>
+    <guid>http://localhost:1313/external_doc/</guid>
+    <description><![CDATA[<p>External doc test</p>]]></description>
+</item>
+</channel>
+</rss>
