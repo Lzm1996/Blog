@@ -5,7 +5,9 @@
 <!--more-->
 
 ## 基础环境配置
-> TODO高亮块 建议优先安装并配置好iterm终端工具，再进行环境配置
+{{< admonition type=note >}}
+**建议优先安装并配置好iterm终端工具，再进行环境配置**
+{{< /admonition >}}
 ### brew安装
 > Homebrew（brew）是一种管理和安装各种软件包的方便的解决方案。
 
