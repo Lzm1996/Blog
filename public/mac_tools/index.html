@@ -40,7 +40,7 @@
                             "url": "http:\/\/localhost:1313\/mac_tools\/featured-image.jpg",
                             "width":  1600 ,
                             "height":  840 
-                        }],"genre": "posts","keywords": "tool, efficiency","wordcount":  26 ,
+                        }],"genre": "posts","keywords": "tool, efficiency","wordcount":  2075 ,
         "url": "http:\/\/localhost:1313\/mac_tools\/","datePublished": "2024-12-27T22:32:01+08:00","dateModified": "2024-12-30T23:19:17+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
@@ -50,7 +50,7 @@
                     "height":  635 
                 }},"author": {
                 "@type": "Person",
-                "name": "Dovis"
+                "name": "dovisliu"
             },"description": "探索mac效率工具的使用和安装"
     }
     </script></head>
@@ -118,9 +118,9 @@
             <h2 class="toc-title">目录</h2>
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Mac常用工具</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Dovis</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tools/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tools</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-12-27">2024-12-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 26 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>dovisliu</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tools/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tools</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-12-27">2024-12-27</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2075 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 5 分钟&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -135,14 +135,282 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#基础环境配置">基础环境配置</a></li>
-    <li><a href="#常用工具">常用工具</a></li>
+    <li><a href="#基础环境配置">基础环境配置</a>
+      <ul>
+        <li><a href="#brew安装">brew安装</a></li>
+        <li><a href="#git">git</a></li>
+        <li><a href="#vim">vim</a></li>
+        <li><a href="#hugo">hugo</a></li>
+        <li><a href="#npm">npm</a></li>
+      </ul>
+    </li>
+    <li><a href="#常用工具">常用工具</a>
+      <ul>
+        <li><a href="#iterm2安装和配置">iterm2安装和配置</a></li>
+        <li><a href="#vscode安装和配置">vscode安装和配置</a></li>
+        <li><a href="#jetbrains-toolbox">JetBrains Toolbox</a></li>
+        <li><a href="#alfred-4">Alfred 4</a></li>
+      </ul>
+    </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p>整理常用的mac工具，方便查找。</p>
+            </div><div class="content" id="content"><p>程序员Mac环境配置和常用效率工具整理</p>
 <h2 id="基础环境配置">基础环境配置</h2>
+<blockquote>
+<p>TODO高亮块 建议优先安装并配置好iterm终端工具，再进行环境配置</p>
+</blockquote>
+<h3 id="brew安装">brew安装</h3>
+<blockquote>
+<p>Homebrew（brew）是一种管理和安装各种软件包的方便的解决方案。</p>
+</blockquote>
+<p>在安装 Homebrew 之前，需要先安装 Xcode 命令行工具。这个工具包含了 Homebrew 所需的编译器和其他工具。</p>
+<p>打开终端（Terminal），然后运行以下命令，按照提示安装即可：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">xcode-select --install
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Xcode 命令行工具安装完成后，继续安装 Homebrew。打开终端，执行以下命令：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">/bin/bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>安装完成、配置好环境变量后，可以通过运行<code>brew --version</code>来验证是否安装成功</p>
+<h3 id="git">git</h3>
+<p>以下是在Mac上配置GitHub SSH Key的详细步骤：</p>
+<ol>
+<li>检查是否已经安装SSH
+在终端中输入以下命令，检查是否已经安装了SSH：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果出现 <code>Permission denied (publickey).</code> 或类似的信息，说明已经安装了SSH，但可能没有配置正确的密钥；如果出现 <code>command not found</code> 信息，说明没有安装SSH，需要先安装。</p>
+<ol start="2">
+<li>生成新的SSH Key
+如果需要生成新的SSH Key，可以使用以下命令：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh-keygen -t rsa -b <span class="m">4096</span> -C <span class="s2">&#34;your_email@example.com&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li><code>t rsa</code> 表示使用RSA算法生成密钥。</li>
+<li><code>b 4096</code> 表示密钥长度为4096位，这样会更安全。</li>
+<li><code>C &quot;your_email@example.com&quot;</code> 用于给密钥添加注释，通常使用你的电子邮件地址，以便你能记住该密钥的用途。</li>
+</ul>
+<p>在运行上述命令后，会提示你输入文件保存位置，一般默认的位置是 <code>~/.ssh/id_rsa</code> ，你可以直接按回车键使用默认位置；然后会提示输入密码，这个密码是用来保护你的私钥的，可以输入一个密码，也可以直接按回车键留空（不建议留空）。</p>
+<ol start="3">
+<li>复制公钥到GitHub
+你需要将生成的公钥添加到GitHub账户中。首先，使用以下命令复制公钥：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pbcopy &lt; ~/.ssh/id_rsa.pub
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="4">
+<li>测试连接
+为了确保一切正常，你可以使用以下命令测试连接：</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果配置成功，你会看到类似 <code>Hi username! You've successfully authenticated, but GitHub does not provide shell access.</code> 的信息。</p>
+<h3 id="vim">vim</h3>
+<p>新建.vimrc配置，配置如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">encoding</span><span class="p">=</span><span class="nx">utf</span><span class="m">-8</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># <span class="nx">搜索忽视大小写</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">ignorecase</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># <span class="nx">允许粘贴</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">paste</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># <span class="nx">显示行号</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">number</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># <span class="nx">允许鼠标</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">mouse</span><span class="p">=</span><span class="nx">a</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># <span class="nx">自动缩进</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">autoindent</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># <span class="nx">高亮显示当前行</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">cursorline</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="hugo">hugo</h3>
+<h3 id="npm">npm</h3>
+<p>由于 npm 是随同 Node.js 一起发布的，所以首先要安装 Node.js。
+<em>方法一：使用官方安装包（推荐）</em></p>
+<ul>
+<li>访问 Node.js 官方网站（https://nodejs.org/）。</li>
+<li>下载适合 Mac 系统的安装包（一般是.pkg 文件）。</li>
+<li>双击下载的安装包，按照安装向导的提示进行操作。在安装过程中，会自动安装 Node.js 和 npm。</li>
+<li>安装完成后，可以在终端中输入node -v来检查 Node.js 的版本，输入npm -v来检查 npm 的版本，以确认安装成功。
+<em>方法二：使用 Homebrew（如果已经安装了 Homebrew）</em></li>
+<li>Homebrew 是 Mac 上的包管理器。如果已经安装了 Homebrew，可以在终端中输入以下命令来安装 Node.js：</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew install node
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>安装完成后，同样可以使用node -v和npm -v来检查版本。</p>
 <h2 id="常用工具">常用工具</h2>
-</div><div class="post-footer" id="post-footer">
+<h3 id="iterm2安装和配置">iterm2安装和配置</h3>
+<ol>
+<li>下载链接：https://iterm2.com/downloads.html</li>
+<li>安装 Oh-My-Zsh</li>
+</ol>
+<blockquote>
+<p>官方地址：https://github.com/ohmyzsh/ohmyzsh?tab=readme-ov-file</p>
+</blockquote>
+<p>Oh-My-Zsh 是一个开源的、社区驱动的框架，用于管理 Zsh 的配置。它提供了大量的主题和插件，方便我们对 Zsh 进行定制。
+在终端中运行以下命令来安装 Oh My Zsh：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 如果请求超时，则使用国内镜像</span>
+</span></span><span class="line"><span class="cl">sh -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>下载zsh主题，这里以powerlevel10k为例</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>打开.zshrc文件编辑，设置主题<code>ZSH_THEME=&quot;powerlevel10k/powerlevel10k&quot;</code></p>
+<ol start="4">
+<li>下载字体</li>
+</ol>
+<blockquote>
+<p>一些主题需要特定的系统字体支持，比如p10k需要MesloLGS相关字体，通常终端启动时主题会提示下载字体，但是有可能出现网络超时的问题，这里提供一个手动下载的方法</p>
+</blockquote>
+<ul>
+<li>前往 <a href="https://www.nerdfonts.com/font-downloads" target="_blank" rel="noopener noreffer ">Nerd Fonts 官方网站</a> 下载 MesloLGS NF，随后下载就得到一系列的字体文件（通常是 .ttf 或 .otf 格式），选择 MesloLGS NF相关的</li>
+<li>双击安装字体</li>
+<li>在iterm中配置字体
+<ul>
+<li>打开 iTerm2，点击 iTerm2 菜单中的 Preferences。</li>
+<li>在 Profiles 选项卡中，选择你正在使用的 Profile。</li>
+<li>点击 Text，在 Font 部分，从字体列表中选择 MesloLGS NF 字体。</li>
+</ul>
+</li>
+</ul>
+<ol start="5">
+<li>插件安装</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 自动提示</span>
+</span></span><span class="line"><span class="cl">git clone https://github.com/zsh-users/zsh-autosuggestions <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-autosuggestions
+</span></span><span class="line"><span class="cl"><span class="c1"># zsh-syntax-highlighting 高亮</span>
+</span></span><span class="line"><span class="cl">git clone https://github.com/zsh-users/zsh-syntax-highlighting.git <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-syntax-highlighting
+</span></span><span class="line"><span class="cl"><span class="c1"># zsh-completions 额外自动补全</span>
+</span></span><span class="line"><span class="cl">git clone https://github.com/zsh-users/zsh-completions <span class="si">${</span><span class="nv">ZSH_CUSTOM</span><span class="k">:-</span><span class="p">~/.oh-my-zsh/custom</span><span class="si">}</span>/plugins/zsh-completions
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>下载完插件后，修改.zshrc文件启用插件<code>plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-completions)</code></p>
+<h3 id="vscode安装和配置">vscode安装和配置</h3>
+<ol>
+<li>下载链接：https://code.visualstudio.com/Download</li>
+<li>设置<code>code</code>命令以便在终端中快速打开文件或文件夹
+<ul>
+<li>打开 VS Code，通过快捷键 <code>Command + Shift + P</code> 调出命令面板。</li>
+<li>在命令面板中输入 “path”，找到 “Shell Command: Install &lsquo;code&rsquo; command in PATH” 并执行该命令。</li>
+<li>这个操作会在你的系统中设置一个符号链接，使得在终端中可以使用code命令来启动 VS Code。</li>
+</ul>
+</li>
+<li>安装常用插件
+<ul>
+<li>GitHub Copilot AI代码助手，通过github授权登录使用</li>
+<li>Markdown All in One</li>
+</ul>
+</li>
+</ol>
+<h3 id="jetbrains-toolbox">JetBrains Toolbox</h3>
+<blockquote>
+<p>管理各类语言编程IDE，如常见的IDEA、Goland等</p>
+</blockquote>
+<p>下载地址：https://www.jetbrains.com.cn/toolbox-app/</p>
+<h3 id="alfred-4">Alfred 4</h3>
+<blockquote>
+<p>效率工具，支持一些工作流和快速搜索等</p>
+</blockquote>
+<p>下载地址：https://www.alfredapp.com/help/v4/</p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -172,8 +440,8 @@
 </div>
 </article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.139.4">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.140.2">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
 
