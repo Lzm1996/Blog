@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/en/categories/</loc>
+    <lastmod>2025-01-19T00:48:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/categories/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="http://localhost:1313/zh-tw/categories/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/categories/"/>
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/collections/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/collections/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="http://localhost:1313/zh-tw/collections/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/collections/"/>
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/categories/documentation/</loc>
+    <lastmod>2025-01-19T00:48:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/categories/documentation/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/categories/documentation/"/>
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="http://localhost:1313/zh-tw/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/"/>
+  </url>
+  <url>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="http://localhost:1313/tags/"/>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="http://localhost:1313/zh-tw/tags/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:1313/en/tags/"/>
+  </url>
+</urlset>

@@ -1,25 +1,9 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
-subtitle: ""
+title: {{ replace .TranslationBaseName "-" " " | title }}
+subtitle:
 date: {{ .Date }}
-lastmod: {{ .Date }}
+slug: {{ substr .File.UniqueID 0 7 }}
+description: 
+keywords:
 draft: false
-external_url: ""
-author: "dovisliu"
-authorLink: ""
-description: ""
-images: []
-resources:
-- name: ""
-  src: ""
-
-tags: []
-categories: ["默认文档"]
-
-lightgallery: true
-
-toc:
-  auto: false
 ---
-
-<!--more-->

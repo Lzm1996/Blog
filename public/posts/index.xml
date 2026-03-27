@@ -1,23 +1,52 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>所有文章 - DOVISLIU</title>
-        <link>http://localhost:1313/posts/</link>
-        <description>所有文章 | DOVISLIU</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Mac常用工具</title>
-    <link>http://localhost:1313/mac_tools/</link>
-    <pubDate>Fri, 27 Dec 2024 22:32:01 &#43;0800</pubDate>
-    <author>dovisliu</author>
-    <guid>http://localhost:1313/mac_tools/</guid>
-    <description><![CDATA[<p>程序员Mac环境配置和常用效率工具整理</p>]]></description>
-</item>
-<item>
-    <title>External Doc</title>
-    <link>http://localhost:1313/external_doc/</link>
-    <pubDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</pubDate>
-    <author>dovisliu</author>
-    <guid>http://localhost:1313/external_doc/</guid>
-    <description><![CDATA[<p>External doc test</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>所有文章 | DOVISLIU</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>DOVISLIU</description>
+    <generator>Hugo 0.147.8 &amp; FixIt v0.3.20</generator>
+    <language>zh-CN</language>
+    <managingEditor>277028753@qq.com (liuzhangmin)</managingEditor>
+    <webMaster>277028753@qq.com (liuzhangmin)</webMaster>
+    <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
+    <lastBuildDate>Sun, 08 Jun 2025 17:22:09 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>程序员Mac工作环境搭建</title>
+      <link>http://localhost:1313/posts/mac_tools/</link>
+      <pubDate>Fri, 27 Dec 2024 22:32:01 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mac_tools/</guid>
+      <category domain="http://localhost:1313/categories/mac%E5%B7%A5%E4%BD%9C%E7%8E%AF%E5%A2%83/">Mac工作环境</category>
+      <description>&lt;p&gt;程序员在面对新机时，如何快速有序的搭建工作环境，本文包括基础的环境配置和常用效率工具的整理&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>博客搭建记录-安装篇</title>
+      <link>http://localhost:1313/posts/12791d6/</link>
+      <pubDate>Sun, 08 Jun 2025 17:16:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/12791d6/</guid>
+      <description>个人博客搭建系列-安装篇</description>
+    </item>
+    <item>
+      <title>博客搭建记录-工具篇</title>
+      <link>http://localhost:1313/posts/5c2e530/</link>
+      <pubDate>Thu, 13 Mar 2025 09:41:16 +0800</pubDate>
+      <guid>http://localhost:1313/posts/5c2e530/</guid>
+      <description>博客搭建记录-工具篇</description>
+    </item>
+    <item>
+      <title>博客搭建记录-部署篇</title>
+      <link>http://localhost:1313/posts/9a5d987/</link>
+      <pubDate>Wed, 12 Mar 2025 09:49:32 +0800</pubDate>
+      <guid>http://localhost:1313/posts/9a5d987/</guid>
+      <description>博客搭建记录-部署篇</description>
+    </item>
+    <item>
+      <title>External Doc</title>
+      <link>http://localhost:1313/posts/external_doc/</link>
+      <pubDate>Sun, 29 Dec 2024 22:12:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/external_doc/</guid>
+      <category domain="http://localhost:1313/categories/default_category/">default_category</category>
+      <description>&lt;p&gt;External doc test&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

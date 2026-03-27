@@ -1,15 +1,23 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Default_category - 分类 - DOVISLIU</title>
-        <link>http://localhost:1313/categories/default_category/</link>
-        <description>Default_category - 分类 - DOVISLIU</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/default_category/" rel="self" type="application/rss+xml" /><item>
-    <title>External Doc</title>
-    <link>http://localhost:1313/external_doc/</link>
-    <pubDate>Sun, 29 Dec 2024 22:12:49 &#43;0800</pubDate>
-    <author>dovisliu</author>
-    <guid>http://localhost:1313/external_doc/</guid>
-    <description><![CDATA[<p>External doc test</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>default_category - 分类 | DOVISLIU</title>
+    <link>http://localhost:1313/categories/default_category/</link>
+    <description>DOVISLIU</description>
+    <generator>Hugo 0.147.8 &amp; FixIt v0.3.20</generator>
+    <language>zh-CN</language>
+    <managingEditor>277028753@qq.com (liuzhangmin)</managingEditor>
+    <webMaster>277028753@qq.com (liuzhangmin)</webMaster>
+    <copyright>本站内容采用 CC BY-NC-SA 4.0 国际许可协议。</copyright>
+    <lastBuildDate>Sun, 29 Dec 2024 22:12:49 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/default_category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>External Doc</title>
+      <link>http://localhost:1313/posts/external_doc/</link>
+      <pubDate>Sun, 29 Dec 2024 22:12:49 +0800</pubDate>
+      <guid>http://localhost:1313/posts/external_doc/</guid>
+      <category domain="http://localhost:1313/categories/default_category/">default_category</category>
+      <description>&lt;p&gt;External doc test&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

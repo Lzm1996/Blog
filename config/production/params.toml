@@ -1,0 +1,96 @@
+# -------------------------------------------------------------------------------------
+# Theme Core Configuration
+# See: https://fixit.lruihao.cn/theme-documentation-basics/#site-configuration
+# -------------------------------------------------------------------------------------
+
+# which hash function used for SRI, when empty, no SRI is used
+# ("sha256", "sha384", "sha512", "md5")
+# fingerprint = "sha256"
+
+# Comment config
+[page.comment]
+  enable = false
+  [page.comment.valine]
+    enable = false
+    appId = ""
+    appKey = ""
+    placeholder = "ヾﾉ≧∀≦)o~ 有事请留言！\n评论功能以邮件作为通知方式！\n如有必要请填写正确邮箱哦！"
+    avatar = "wavatar"
+    meta = ['nick','mail','link']
+    requiredFields = ['nick','mail','link']
+    pageSize = 10
+    lang = "zh-CN"
+    visitor = true
+    recordIP = true
+    highlight = true
+    enableQQ = true
+    serverURLs = ""
+    #  emoji data file name, default is "google.yml"
+    # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
+    # located in "themes/FixIt/assets/lib/valine/emoji/" directory
+    # you can store your own data files in the same path under your project:
+    # "assets/lib/valine/emoji/"
+    emoji = ""
+    commentCount = true # FixIt NEW | 0.2.13
+  # FixIt 0.2.14 | NEW Giscus comments config (https://giscus.app/)
+  [page.comment.giscus]
+    enable = false
+    repo = "Lruihao/hugo-blog"
+    repoId = "MDEwOlJlcG9zaXRvcnk0MDQzNDY3MDk="
+    category = "General"
+    categoryId = "DIC_kwDOGBnXVc4CApHL"
+    mapping = "title"
+    strict = "0" # FixIt NEW | 0.2.18
+    term = ""
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "top" # ["top", "bottom"]
+    lightTheme = "light"
+    darkTheme = "dark_dimmed"
+    lazyLoad = true
+  [page.comment.waline]
+    enable = false
+    serverURL = ""
+    pageview = false # FixIt 0.2.15 | NEW
+    emoji = ["//unpkg.com/@waline/emojis@1.1.0/weibo"]
+    meta = ["nick", "mail", "link"]
+    requiredMeta = []
+    login = "enable"
+    wordLimit = 0
+    pageSize = 10
+    imageUploader = false # FixIt 0.2.15 | NEW
+    highlighter = false # FixIt 0.2.15 | NEW
+    comment = false # FixIt 0.2.15 | NEW
+    texRenderer = false # FixIt 0.2.16 | NEW
+    search = false # FixIt 0.2.16 | NEW
+    recaptchaV3Key = "" # FixIt 0.2.16 | NEW
+    turnstileKey = "" # FixIt 0.3.8 | NEW
+    reaction = false # FixIt 0.2.18 | NEW
+
+# FixIt 0.3.10 | NEW Busuanzi count
+[busuanzi]
+  # whether to enable busuanzi count
+  enable = true
+  # busuanzi count core script source. Default is https://vercount.one/js
+  source = "https://vercount.one/js"
+  # whether to show the site views
+  siteViews = true
+  # whether to show the page views
+  pageViews = true
+
+# CDN config for third-party library files
+[cdn]
+  # CDN data file name, disabled by default ["jsdelivr.yml", "unpkg.yml", ...]
+  # located in "themes/FixIt/assets/data/cdn/" directory
+  # you can store your own data files in the same path under your project: "assets/data/cdn/"
+  data = ""
+
+# FixIt 0.2.10 | NEW Analytics config
+[analytics]
+  enable = false
+  # My share URL: https://cloud.umami.is/share/FSPwm1IsrQFY7ZvP/lruihao.cn
+  [analytics.umami]
+    data_website_id = "4049c0b0-87c9-4573-8ae5-d84449e40e05"
+    src = "https://cloud.umami.is/script.js"
+    data_host_url = ""
+    data_domains = ""
